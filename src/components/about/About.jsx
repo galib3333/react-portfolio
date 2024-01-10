@@ -12,7 +12,7 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about_">
+        <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="" />
           </div>
@@ -36,12 +36,13 @@ const About = () => {
               <small>10+ Completed</small>
             </article>
           </div>
-
+          <div className="about__content">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, magni qui! Aspernatur accusantium dolore sit laborum culpa nobis voluptatem placeat in obcaecati, eaque rem dolorum nihil eum ex, explicabo quam.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          </div>
         </div>
       </div>
     </section>
