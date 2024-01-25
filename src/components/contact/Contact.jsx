@@ -31,7 +31,7 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon' />
-            <h4>Messanger</h4>
+            <h4>Messenger</h4>
             <h5>Asadullah Al Galib</h5>
             <a href="https://m.me/galib053" target='_blank' rel="noreferrer">Send a message</a>
           </article>
